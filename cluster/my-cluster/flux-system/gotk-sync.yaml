@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./cluster/my-cluster
+  path: ./cluster/my-cluster/kustomize/overlays/dev
   prune: true
   sourceRef:
     kind: GitRepository
